@@ -9,7 +9,14 @@
 
 #include <stdio.h>
 #include <tchar.h>
+#include <string>
 
+#include <iostream>
+#include <vector>
+#include <functional>
+#include <map>
+#include <set>
 
+using namespace std;
 
 // TODO: reference additional headers your program requires here
