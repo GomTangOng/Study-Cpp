@@ -22,6 +22,9 @@
     <Filter Include="Source Files\Common">
       <UniqueIdentifier>{45b28f19-2c11-43ed-b361-d0d5446b2cb6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Common\MainEntry">
+      <UniqueIdentifier>{48cb9896-029d-4628-9990-360f082ab8f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -36,13 +39,16 @@
     <ClInclude Include="clause_3.h">
       <Filter>Source Files\EffectiveC++\1장</Filter>
     </ClInclude>
+    <ClInclude Include="clause_6.h">
+      <Filter>Source Files\EffectiveC++\1장</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++_Practice.cpp">
-      <Filter>Source Files\Common</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C++_Practice.cpp">
+      <Filter>Source Files\Common\MainEntry</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,3 +1,3 @@
 ﻿  C++_Practice.cpp
-  C++_Practice.vcxproj -> C:\Users\user\Documents\Visual Studio 2015\Projects\C-_Practice\x64\Debug\C++_Practice.exe
-  C++_Practice.vcxproj -> C:\Users\user\Documents\Visual Studio 2015\Projects\C-_Practice\x64\Debug\C++_Practice.pdb (Full PDB)
+c:\users\user\documents\visual studio 2015\projects\c-_practice\c++_practice\c++_practice.cpp(29): error C2280: 'NamedObject<int> &NamedObject<int>::operator =(const NamedObject<int> &)': 삭제된 함수를 참조하려고 합니다.
+  c:\users\user\documents\visual studio 2015\projects\c-_practice\c++_practice\clause_6.h(12): note: 컴파일러에서 여기에 'NamedObject<int>::operator ='을(를) 생성했습니다.

@@ -3,18 +3,16 @@
 
 #include "stdafx.h"
 #include "clause_3.h"
+#include "clause_6.h"
 
 int main()
 {
-	TextBlock tb("Hello");
-	cout << tb[0] << endl;
+	string newDog("Persephone");
+	string oldDog("Satch");
+	NamedObject<int> p(newDog, 2);
+	NamedObject<int> s(oldDog, 36);
 
-	const TextBlock ctb("World");
-	cout << ctb[0] << endl;
-
-	tb[0] = 'x';
-	//ctb[0] = 'x'; // ¿¡·¯
-
+	p = s;
     return 0;
 }
 

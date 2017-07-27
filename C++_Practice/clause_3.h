@@ -27,7 +27,7 @@ public :
 	//	return text[position];
 	//}
 
-	char& operator[] (std::size_t position)				// New Version
+	char operator[] (std::size_t position)				// New Version
 	{
 		return const_cast<char&>(static_cast<const TextBlock&>(*this)[position]);
 	}
@@ -66,3 +66,18 @@ private :
 	mutable size_t textlength;		// 비트수준 상수성(bitwise constness)을 제거하는 키워드인 mutable
 	mutable bool lengthIsValid;
 };
+
+//TextBlock tb("Hello");
+//cout << tb[0] << endl;
+
+//const TextBlock ctb("World");
+//cout << ctb[0] << endl;
+//
+//tb[0] = 'x';
+//ctb[0] = 'x'; // 에러 --> 반환 타입이 다르다.
+
+//const CTextBlock cctb("Hello");
+//char *pc = &cctb[0];
+//*pc = 'J';
+
+//char ch[128];
